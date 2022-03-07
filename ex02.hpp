@@ -1,34 +1,29 @@
-//change the below code
-// the function below now only works with integers, change it to work with any type
-// also fill out the body
+#include <bits/stdc++.h>
+using namespace std;
 
-public class Calculator {
-private:
-    int num1, num2;
-
+template<typename T>
+class Calculator{
 public:
-    Calculator(int n1, int n2) {
-        num1 = n1;
-        num2 = n2;
+    T a, b;
+
+    Calculator(T a, T b){
+        this.a = a;
+        this.b = b;
     }
 
-    int add() { return 0; /*your code here*/ }
-    int subtract() { /*your code here*/ }
-    int multiply() { /*your code here*/ }
-    int divide() { /*your code here*/ }
+    T add(){
+        return a + b;
+    }
+
+    T subtraction(){
+        return a - b;
+    }
+
+    T multiplication(){
+        return a * b;
+    }
+
+    T division(){
+        return a / b;
+    }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
