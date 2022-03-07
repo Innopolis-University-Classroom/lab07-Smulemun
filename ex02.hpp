@@ -15,15 +15,15 @@ public:
         return a + b;
     }
 
-    T subtraction(){
+    T subtract(){
         return a - b;
     }
 
-    T multiplication(){
+    T multiply(){
         return a * b;
     }
 
-    T division(){
+    T divide(){
         return a / b;
     }
 };
