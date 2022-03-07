@@ -7,8 +7,8 @@ public:
     T a, b;
 
     Calculator(T a, T b){
-        this.a = a;
-        this.b = b;
+        this->a = a;
+        this->b = b;
     }
 
     T add(){
